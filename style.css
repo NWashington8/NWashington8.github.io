@@ -1,0 +1,57 @@
+body {
+    background:rgb(0,128,0);
+margin: 0 auto;
+display: flex;
+padding:10px;
+}
+h1 {
+    display: flex;
+align-items: center;
+color:azure;
+flex: 1;
+margin: 0;
+}
+#nav-ul {
+list-style-type: lower-roman;
+margin: 1;
+padding: 1;
+display: flex;
+}
+.nav-li {
+    display: inline-block;
+    padding: 1 10px;
+}
+a {
+    text-decoration: aqua;
+    color: aqua;
+}
+main {
+    background: rgb(253, 251, 212);
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 100px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* interests section styles */
+#interests {
+    border: 4px green;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 2px;
+}
