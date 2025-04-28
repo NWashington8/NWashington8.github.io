@@ -54,7 +54,6 @@ var init = function (window) {
     and check to see if it has drifted off the screen.
     */
     function update() {
-    }
     // TODO 4 : Update the position of each circle using physikz.updatePosition()
     //physikz.updatePosition(circles[0]);
     //physikz.updatePosition(circles[1]);
@@ -73,6 +72,7 @@ var init = function (window) {
     physikz.updatePosition(circles[i])
     game.checkCirclePosition(circles[i])
     }
+} 
     /*
     This Function should check the position of a circle that is passed to the
     Function. If that circle drifts off the screen, this Function should move
